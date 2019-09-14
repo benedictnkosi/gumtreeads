@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [MoneyApp Suite]]" parallel="tests">
+  <test thread-count="3" name="002_config(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="driver.ConfigTest">
+        <methods>
+          <include name="runCustomTransactionNameTestCases"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- driver.ConfigTest->
+    </classes>
+  </test> <!-- 002_config(failed)(failed) -->
+  <test thread-count="3" name="003_budget(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="driver.BudgetTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="runBudgetTestCases" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- driver.BudgetTest->
+    </classes>
+  </test> <!-- 003_budget(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [MoneyApp Suite]] -->

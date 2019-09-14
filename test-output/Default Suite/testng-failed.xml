@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="GumtreeAdsAutomation(failed)">
+    <classes>
+      <class name="driver.ShortTermRentalTest">
+        <methods>
+          <include name="runShortTermRentalTestCases" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setupReports"/>
+        </methods>
+      </class> <!-- driver.ShortTermRentalTest -->
+    </classes>
+  </test> <!-- GumtreeAdsAutomation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
